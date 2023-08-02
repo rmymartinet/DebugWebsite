@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "img": "gulp img"
+  },
+  "dependencies": {
+    "sharp": "^0.32.4"
+  },
+  "devDependencies": {
+    "critical": "^5.1.1"
+  }
+}
+
