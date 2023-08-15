@@ -91,6 +91,11 @@ nav a {
   border-radius: 0.25rem;
   background-color: rgb(115, 113, 55);
 }
+
+.nav-pills {
+  display: flex;
+  justify-content: center;
+}
 .nav-pills .nav-link {
   color: #000;
 }
