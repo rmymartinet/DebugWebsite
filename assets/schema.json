@@ -1,0 +1,29 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "image": [
+    "https://rmymartinet.github.io/DebugWebsite//assets/images/images-webp/ryoji-iwata-wUZjnOv7t0g-unsplash-lg.webp",
+    "https://rmymartinet.github.io/DebugWebsite//assets/images/images-webp/nicholas-green-nPz8akkUmDI-unsplash-lg.webp",
+    "https://rmymartinet.github.io/DebugWebsite//assets/images/images-webp/edward-cisneros-3_h6-1NPDGw-unsplash-lg.webp"
+  ],
+  "name": "Nina Carducci",
+  "description": "Bienvenue sur mon site web portfolio ! Je suis Nina Carducci, une photographe passionnée par la capture d'émotions et de moments précieux. À travers mon objectif, je cherche à immortaliser la beauté et l'authenticité qui se cachent dans chaque sujet. Parcourez mon portfolio captivant et plongez dans mon univers visuel unique, où chaque image raconte une histoire. Vous y trouverez des portraits saisissants, des paysages époustouflants et des instantanés de la vie quotidienne. Chacune de mes séries photographiques explore différents thèmes, techniques et styles, reflétant ma vision artistique en constante évolution. J'espère que mes images vous transporteront et éveilleront en vous des émotions profondes. Explorez mon travail et découvrez comment je saisis l'essence des moments précieux qui se déroulent devant mon objectif.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "68 avenue Alsace-Lorraine",
+    "addressLocality": "Bordeaux",
+    "postalCode": "33200",
+    "addressCountry": "FR"
+  },
+  "url": "https://rmymartinet.github.io/DebugWebsite/",
+  "telephone": "0556677889",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+      "opens": "10:00",
+      "closes": "19:00"
+    }
+  ],
+  "sameAs": ["https://www.instagram.com/ninacarducci.photo/?hl=fr"]
+}

@@ -4,6 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nina Carducci</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfessionalService",
+        "image": [
+          "https://rmymartinet.github.io/DebugWebsite//assets/images/images-webp/ryoji-iwata-wUZjnOv7t0g-unsplash-lg.webp",
+          "https://rmymartinet.github.io/DebugWebsite//assets/images/images-webp/nicholas-green-nPz8akkUmDI-unsplash-lg.webp",
+          "https://rmymartinet.github.io/DebugWebsite//assets/images/images-webp/edward-cisneros-3_h6-1NPDGw-unsplash-lg.webp"
+        ],
+        "name": "Nina Carducci",
+        "description": "Portfolio de Nina Carducci : passion, émotion, beauté. Univers visuel : portraits, paysages, instantanés. Laissez-vous transporter.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "postalCode": "33200",
+          "addressCountry": "FR"
+        },
+        "url": "https://rmymartinet.github.io/DebugWebsite/",
+        "telephone": "0556677889",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "10:00",
+            "closes": "19:00"
+          }
+        ],
+        "sameAs": ["https://www.instagram.com/ninacarducci.photo/?hl=fr"],
+        "priceRange": "Indiquez ici la fourchette de prix, si applicable"
+      }
+    </script>
     <meta
       name="description"
       content="Découvrez l'univers de la photo à travers mes yeux passionnés. Explorez mon portfolio, des images éblouissantes, des portraits authentiques, des paysages envoûtants. Laissez-moi capturer vos précieux moments avec créativité et sensibilité."
@@ -17,6 +55,10 @@
     <meta
       property="og:description"
       content="Découvrez l'univers de la photo à travers mes yeux passionnés. Explorez mon portfolio, des images éblouissantes, des portraits authentiques, des paysages envoûtants. Laissez-moi capturer vos précieux moments avec créativité et sensibilité."
+    />
+    <meta
+      property="og:url"
+      content="https://rmymartinet.github.io/DebugWebsite/"
     />
     <meta
       property="og:url"
@@ -524,6 +566,7 @@
         padding-bottom: 1rem !important;
       }
     </style>
+
     <link rel="stylesheet" href="./assets/bootstrap/bootstrap.min.css" />
     <link rel="stylesheet" href="./assets/style.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -531,6 +574,10 @@
     <link
       href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap"
       rel="stylesheet"
+    />
+    <meta
+      name="google-site-verification"
+      content="QR3bFkMlHbpME5sEls2komxTwyYr-RH4pjz1xhw--qU"
     />
   </head>
   <body>
@@ -655,7 +702,7 @@
             </button>
           </div>
         </section>
-        <section id="about">
+        <section id="about" itemscope itemtype="http://schema.org/Person">
           <div class="picture left">
             <img
               src="./assets/images/images-webp/nina-md4.webp"
@@ -819,7 +866,7 @@
               />
             </div>
           </div>
-          <div class="quote">
+          <div class="quote" itemscope itemtype="http://schema.org/Quotation">
             <figure>
               <blockquote>
                 <h2 class="quote__text">
@@ -837,64 +884,72 @@
         <section id="services">
           <h2 class="title">Mes services</h2>
           <div class="container">
-            <div class="service">
+            <div class="service" itemscope itemtype="http://schema.org/Offer">
               <div class="service__description">
-                <h3>Shooting photo</h3>
-                <p>
+                <h3 itemprop="name">Shooting photo</h3>
+                <p itemprop="description">
                   Pour capturer vos moments les plus précieux et garder un
                   souvenir impérissable. Je me déplace en Île-de-France pour
                   réaliser vos photos
                 </p>
               </div>
               <div class="service__price">
-                <h4>350€/demi journée</h4>
-                <span>Matériel, déplacement inclus</span>
+                <h4 itemprop="price">350€/demi journée</h4>
+                <span itemprop="additionalProperty"
+                  >Matériel, déplacement inclus</span
+                >
               </div>
             </div>
-            <div class="service">
+            <div class="service" itemscope itemtype="http://schema.org/Offer">
               <div class="service__description">
-                <h3>Retouches</h3>
-                <p>
+                <h3 itemprop="name">Retouches</h3>
+                <p itemprop="description">
                   Vous souhaitez retoucher vos photos pour un résultat
                   professionnel ? Bénéficier d’un rendu optimal pour vos
                   publications
                 </p>
               </div>
               <div class="service__price">
-                <h4>50€/photo</h4>
-                <span>2 AR par photo</span>
+                <h4 itemprop="price">50€/photo</h4>
+                <span itemprop="additionalProperty">2 AR par photo</span>
               </div>
             </div>
-            <div class="service">
+            <div class="service" itemscope itemtype="http://schema.org/Offer">
               <div class="service__description">
-                <h3>Album photos</h3>
-                <p>
+                <h3 itemprop="name">Album photos</h3>
+                <p itemprop="description">
                   Partagez avec vos proches et vos clients les photos des
                   moments partagés ensemble à travers un album photo
                   personnalisé
                 </p>
               </div>
               <div class="service__price">
-                <h4>400€ album A4</h4>
-                <span>30 pages recto/verso</span>
+                <h4 itemprop="price">400€ album A4</h4>
+                <span itemprop="additionalProperty">30 pages recto/verso</span>
               </div>
             </div>
           </div>
         </section>
-        <div class="quote">
+        <div class="quote" itemscope itemtype="http://schema.org/Quotation">
           <figure>
             <blockquote>
-              <h1 class="quote__text">
+              <h1 class="quote__text" itemprop="citation">
                 De manière inconsciente, je crois, je guette un regard, une
                 expression, des traits ou une nostalgie capable de résumer ou
                 plus exactement de révéler une vie
               </h1>
             </blockquote>
-            <figcaption class="quote__author">- Richard Avedon</figcaption>
+            <figcaption class="quote__author" itemprop="author">
+              - Richard Avedon
+            </figcaption>
           </figure>
         </div>
         <section id="contact">
-          <div class="container">
+          <div
+            class="container"
+            itemscope
+            itemtype="http://schema.org/ContactPage"
+          >
             <div class="form-container">
               <h2>Une question ? Une demande de devis ?</h2>
               <p>
